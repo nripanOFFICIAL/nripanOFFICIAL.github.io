@@ -1,0 +1,64 @@
+/* Styles for devices with a max width of 768px (tablets and smaller) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+/* Styles for devices with a min width of 769px (desktops) */
+@media (min-width: 769px) {
+    body {
+        font-size: 18px;
+        background-color: white;
+    }
+}
+
+/* Styles for high-resolution screens (Retina displays) */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    body {
+        font-weight: bold;
+    }
+}
+
+img{
+    width: 1490px;
+    height: auto;
+    max-width: 2520px;
+    max-height: auto;
+}
+
+body{
+    margin: 0%;
+    scroll-behavior:smooth;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.header_main{
+    margin: 0%;
+    display: flex;
+    position: absolute;
+}
+
+li,a{
+    color: rgb(255, 255, 255);
+    list-style: none;
+    display:inline;
+    padding: 10px 30px;
+    font-variant: small-caps;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+.img1{
+    
+    margin: 0%;
+    bottom:4px;
+    position: relative;
+}
+.img2{
+    
+    bottom: 8px;
+    position: relative;
+}
